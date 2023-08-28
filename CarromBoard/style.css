@@ -1,0 +1,186 @@
+.carrom-frame{
+   border: 30px solid brown;
+   height: 700px;
+   width: 700px;
+   border-radius: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+   transform: translate(-50%,-50%);/*used for centering the iamge*/
+}
+/* Pockets style */
+.pockets{
+    width:60px;
+    height:60px;
+    position: absolute;
+    border-radius: 50%;
+    background : black;
+}
+.p1{
+    top: 0;
+    left: 0;
+}
+.p2{
+    top:0;
+    right:0;
+}
+.p3{
+    bottom: 0;
+    right: 0;
+}
+.p4{
+    bottom: 0;
+    left: 0;
+}
+/* End of Pockets style */
+/* Base Style */
+.base{
+    border: 3px solid black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+.top-base{
+   height:7%;
+   width: 70%;
+   top:15%;
+   left:50%  ;
+   border-bottom: 1.5px solid black;  
+}
+.bottom-base{
+    height:7%;
+   width: 70%;
+   bottom:10%;
+   left:50%;
+   border-top: 1.5px solid black;   
+}
+.right-base{
+    height:62%;
+    width:7%;
+    top:49%;
+    right:5%;
+    border-left: 1.5px solid black;
+}
+.left-base{
+    height:62%;
+    width:7%;
+    top:49%;
+    left:12%;
+    border-right: 1.5px solid black;
+}
+/* End of Base style */
+
+/* Circle Style */
+.red-circle{
+    height:45px;
+    width:45px;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+    border:4px solid black;
+    
+}
+.c1{
+    top:0;
+    left:0;
+    margin: -2px -4px;
+}
+.c2{
+    top:0;
+    right:0;
+    margin: -2px -4px;
+}
+.c3{
+    top:0;
+    right:0;
+    margin:-1px -3px;
+}
+.c4{
+    bottom:0;
+    right:0;
+    margin:-1px -3px;
+}
+.c5{
+    bottom:0;
+    right:0;
+    margin: -2px -4px;
+}
+.c6{
+    bottom:0;
+    left:0;
+    margin: -2px -4px;
+}
+.c7{
+    bottom:0;
+    left:0;
+    margin:-1px -3px;
+}
+.c8{
+    top:0;
+    right:0;
+    margin:-1px -3px;
+}
+/* End of Circle Style */
+/* Outline Style
+ .outline{
+    height:47px;
+    width:47px;
+    position: absolute;
+    border-radius: 50%;
+    border:4px solid black;
+}
+.outline-1{
+    top:-2px;
+    left:-2%;
+}
+.outline-2{
+   top:-2px;
+   right:-2% 
+} 
+End of Outline Style*/
+/* corner style */
+.corners{
+height:70px ;
+width:70px;
+border:10px solid black;
+position: absolute;
+transform: translate(-50%, -50%);    
+}
+.cor1{
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 50% 0 0 0 ;
+    top:4%;
+    left:4%;
+}
+.cor2{
+    border-left:0;
+    border-bottom: 0;
+    border-radius: 0 47% 0  0;
+    top:4%;
+    right:-7.2%;
+}
+.cor3{
+    border-left:0;
+    border-top: 0;
+    border-radius: 0 0 50% 0;
+    bottom:-7.5%;
+    right:-7.5%;
+}
+.cor4{
+    border-right:0;
+    border-top: 0;
+    border-radius: 0 0 0 47%;
+    bottom:-7.2%;
+    left:4%;
+}
+/* end of corner style */
+img{
+    width: 40%;
+    height: 40%;
+    transform: translate(75%, 70%);
+}
+
+
+

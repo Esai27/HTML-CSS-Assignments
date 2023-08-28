@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(202, 202, 178);
+ 
+}
+table{
+    border:1px white;
+    border-collapse:collapse;
+}
+table:hover{
+
+    width: 200px;
+    height: 200px;
+}
+table:hover body{
+    background-color: cadetblue;
+}
+/* #chess{
+    min-width: 300px;                 
+    background-color: cadetblue; 
+    
+}
+#chess :hover{
+   
+    transform: rotate(360);
+}
+/* tr{
+    width:10vw;
+    
+} */ 
+#white{
+    background-color: white;
+}
+#black{
+    background-color: black;
+}
+
+
+
